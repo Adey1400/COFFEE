@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <nav>
+  <div class="logo"><img src="assest/logo.png" alt=""></div>
+  <div class="points">
+    <a href="">Home</a>
+    <a href="">Menu</a>
+    <a href="">Whats new</a>
+    <a href="">Content</a>
+  </div>
+ </nav>
+ <div class="body">
+    <div class="left">
+         <div class="heading">
+          <div ><h1>It's not just Coffee</h1></div>
+          <div class="Second">It's <span >Starbucks</span></div> 
+         </div>
+         <div class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat.</div>
+          <div class="learn"><button class="learn-btn">Learn More</button></div>
+    </div>
+    <div class="right">
+      <div class="circle"></div>
+      <img class="starbucks" src="assest/img1.png" alt="">
+    </div>
+    <div>
+       <ul class="thumb">
+          <li><img src="assest/thumb1.png" onclick="imgSlider('assest/img1.png');changeCircleColor('#017143')"></li>
+          <li><img src="assest/thumb2.png" onclick="imgSlider('assest/img2.png');changeCircleColor('#83706a')"></li>
+          <li><img src="assest/thumb3.png" onclick="imgSlider('assest/img3.png');changeCircleColor('#d752b1')"></li>
+        </ul>
+    </div>
+   <div>
+    <ul class="social">
+      <li><button id="instagram"><img src="assest/instagram.png" alt=""></button></li>
+      <li><button id="facebook"><img src="assest/facebook.png" alt=""></button></li>
+      <li><button id="twitter"><img src="assest/twitter.png" alt=""></button></li>
+    </ul>
+   </div>
+ 
+ </div>
+ <script src="script.js"></script>
+</body>
+</html>
