@@ -195,18 +195,21 @@ font-weight: bold;
 .border {
     border: 2px solid black;
     width: 50%;
-    height: 60vh;
-    margin: 0px 0px 0px 35px;
+    max-width: 500px;
+    margin: -4px 0px 0px 41px;
     border-radius: 30px;
     padding: 16px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     background: #f9f9f9;
+    overflow: hidden;
 }
 
 .menu {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    max-height: 60vh;
+    overflow-y: auto;
 }
 
 .menu-item {
@@ -226,7 +229,7 @@ font-weight: bold;
 .item-name {
     font-size: 18px;
     font-weight: 500;
-    color: #333;
+    color: #333333;
 }
 
 .item-price {
@@ -234,6 +237,7 @@ font-weight: bold;
     font-weight: 600;
     color: #017143;
 }
+
 .featured-drink {
     text-align: center;
     color: white;
